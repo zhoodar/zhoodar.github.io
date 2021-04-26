@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(75371f53f06181df75f1.ttf);
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(8be2d1487420548b3b8d.ttf)
+}
+
+* {
+    box-sizing: border-box
+}
+
+html, body, .wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth
+}
+
+.wrapper {
+    height: 100%;
+    overflow-x: hidden
+}
+
+.content {
+    position: relative
+}
+
+.content__bgc {
+    width: 100%;
+    height: auto
+}
+
+.content__h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    font-size: 119px;
+    font-family: Roboto, serif
+}
+
+.content__data, .content__place {
+    color: #fff;
+    font-size: 32px
+}
+
+.content__block-place-data {
+    display: flex;
+    justify-content: center
+}
+
+.content__block-wedding {
+    height: calc(111vh - 72px);
+    width: 100%;
+    padding-top: calc(50vh - 30px)
+}
+
+.content__main-image {
+    position: fixed;
+    z-index: -1;
+    width: 100%
+}
+
+.block-how-we-meet {
+    background: #f6fcff
+}
+
+.block-how-we-meet__title-block {
+    padding-top: 100px
+}
+
+.block-how-we-meet__h2 {
+    font-weight: bold;
+    letter-spacing: .2em;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, .7)
+}
+
+.block-how-we-meet__p {
+    padding: 0 0 20px 0;
+    line-height: 2.1em;
+    text-align: center;
+    font-size: 19px;
+    color: #bdb7b1;
+    font-family: Roboto-Light, sans-serif;
+    width: 800px;
+    margin: 0 auto
+}
+
+.block-how-we-meet__svg-block {
+    display: flex;
+    justify-content: center
+}
+
+.block-how-we-meet__svg-icon {
+    width: 23px;
+    fill: #bdb7b1;
+    padding: 26px 0
+}
+
+.big-foto-block {
+    position: relative;
+    margin-bottom: -4px
+}
+
+.big-foto-block__img {
+    height: auto;
+    width: 100%
+}
+
+.big-foto-block__h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .2em;
+    padding: 50px 0 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7)
+}
+
+.big-foto-block__svg-block {
+    display: flex;
+    justify-content: center
+}
+
+.big-foto-block__svg-icon {
+    width: 23px;
+    fill: #bdb7b1;
+    padding: 26px 0
+}
+
+.big-foto-block__wedding-term-block {
+    display: flex;
+    justify-content: space-around
+}
+
+.big-foto-block__wedding-block {
+    position: absolute;
+    top: 89%;
+    background: #f6fcff;
+    left: 5%;
+    width: 90%;
+    height: 30%;
+    z-index: 0
+}
+
+.big-foto-block__wedding-devider {
+    border-right: 1px solid #bdb7b1;
+    margin-right: 19px
+}
+
+.big-foto-block__when-title, .big-foto-block__where-title {
+    font-size: 26px;
+    font-family: Roboto-Light, sans-serif;
+    color: rgba(0, 0, 0, .7);
+    text-align: center
+}
+
+.big-foto-block__when-p, .big-foto-block__where-p {
+    margin: 0;
+    color: #bdb7b1;
+    font-family: Roboto-Light, sans-serif;
+    font-size: 21px
+}
+
+.gallery {
+    background: #fff
+}
+
+.gallery__block-images {
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    gap: 10px;
+    background: #f6fcff
+}
+
+.gallery__filter {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background: #000
+}
+
+.gallery__filter:hover {
+    opacity: .5
+}
+
+.gallery__item {
+    position: relative;
+    overflow: hidden
+}
+
+.gallery__item img {
+    width: 100%;
+    height: 100%
+}
+
+.gallery__item1, .gallery__item2 {
+    grid-column: span 2;
+    grid-row: span 2
+}
+
+.gallery__item3 {
+    grid-column: span 3;
+    grid-row: span 3
+}
+
+.gallery__item4 {
+    grid-column: span 4;
+    grid-row: span 4
+}
+
+.gallery__item5 {
+    grid-column: span 3;
+    grid-row: span 3
+}
+
+.gallery__item6 {
+    grid-column: span 7;
+    grid-row: span 4
+}
+
+.gallery__devider {
+    background: #f6fcff;
+    padding-top: 20%
+}
+
+.block-thanks {
+    background: #e8f6fe;
+    width: 100%
+}
+
+.block-thanks__h2 {
+    letter-spacing: .2em;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    color: rgba(0, 0, 0, .7);
+    margin: 0;
+    padding: 50px 0 20px;
+    text-align: center
+}
+
+.block-thanks__p {
+    text-align: center;
+    font-size: 19px;
+    color: #bdb7b1;
+    margin: 0;
+    padding: 0 50px 20px;
+    font-family: Roboto-Light, sans-serif
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #33424e;
+    height: 200px
+}
+
+.footer__up {
+    margin-top: 50px;
+    color: #fff
+}
+
+.footer__up a {
+    text-decoration: none;
+    color: inherit
+}
+
+#top {
+    font-family: Roboto, sans-serif
+}
+
+#top:hover {
+    cursor: pointer
+}
+
+@media only screen and (min-width: 360px)and (max-width: 992px) {
+    .gallery__block-images {
+        grid-template-columns:repeat(6, 1fr);
+        grid-template-rows:repeat(3, 1fr);
+        gap: 0
+    }
+
+    .gallery__item2:nth-child(2) {
+        margin-left: 10px
+    }
+
+    .gallery__item {
+        margin-bottom: 10px
+    }
+
+    .gallery__item:last-child {
+        margin-bottom: 0
+    }
+
+    .gallery__item1, .gallery__item2 {
+        grid-column: span 3;
+        grid-row: span 1
+    }
+
+    .gallery__item3, .gallery__item4, .gallery__item5 {
+        grid-column: span 6;
+        grid-row: span 2
+    }
+
+    .block-thanks {
+        height: auto
+    }
+
+    .big-foto-block__wedding-block {
+        width: 100%;
+        position: static;
+        margin-top: -5px
+    }
+
+    .big-foto-block__wedding-term-block {
+        display: block;
+        text-align: center
+    }
+
+    .big-foto-block__wedding-devider {
+        display: flex;
+        justify-content: center;
+        border: none;
+        margin: 0
+    }
+
+    .big-foto-block__wedding-devider__devider-span {
+        width: 40px;
+        border-bottom: 1px solid #bdb7b1;
+        margin: 50px 0
+    }
+
+    .gallery__devider {
+        padding-top: 13%
+    }
+
+    .block-how-we-meet__title-block {
+        margin-top: -5px;
+        padding: 0
+    }
+
+    .block-how-we-meet__h2 {
+        font-size: 30px;
+        padding: 70px 5% 0;
+        margin-top: 0
+    }
+
+    .block-how-we-meet__p {
+        text-align: center;
+        width: 100%;
+        font-size: 19px;
+        padding: 0 50px 20px;
+        line-height: 1.7em;
+        color: #bdb7b1
+    }
+
+    .content__main-image {
+        position: static
+    }
+
+    .content__h1 {
+        font-size: 50px;
+        padding: 0 15% 20px
+    }
+
+    .content__block-wedding {
+        height: 100px;
+        padding: 0;
+        position: absolute;
+        top: 231px
+    }
+
+    .content__bgc {
+        width: auto
+    }
+
+    .content__block-place-data {
+        display: block;
+        text-align: center
+    }
+
+    .content__data, .content__place {
+        font-size: 26px;
+        font-family: Roboto-Light, sans-serif
+    }
+}
