@@ -62,6 +62,28 @@
                 '"A6Crp0spqk6wmUklCKwOxQ":"Канзаада эже",' +
                 '"ZvZnhhOU3k2JhYUxgFIyBA":"Жыпара эже",' +
                 '"NMqUJLki306vK4BefPXLIg":"Айтурган",' +
+                '"YVovhZh3L0GTiKn6QHtiVg":"Мыктыбек",' +
+                '"4beaJB1CP0qxTAFZuqUfIA":"Эмил",' +
+                '"b27V7IVqH0eehDhXRtc5g":"Жахонгир & Сивара",' +
+                '"KCXKPUOa6Ea5rJq3LFI9dw":"Миша & Руша",' +
+                '"Vzq1S6ranUecL52PAsiDAw":"Аселя",' +
+                '"NMRw1Y23EWg3EFWWrn42A":"Атай",' +
+                '"ZrY3WhcgmUmJN7wbUaK7vQ":"Жанар",' +
+                '"CXPkUiXjrkyo6SvqvCBxCg":"Бема & Бекс",' +
+                '"QtezkicrMEOj85QDIo9h3w":"Гартензи",' +
+                '"9Ptnlr9wzE6sADFtDLGK9w":"Лера",' +
+                '"BQgnRAw86UilvaFNCNnyw":"Расул",' +
+                '"jyLLoc9XIUaas38IUPxaiw":"Адыл",' +
+                '"ksqxZ3uGbkq8RY+3cWimlw":"Андрей",' +
+                '"arHEqyNaYEWqkWdmVEdW6A":"Тахмина",' +
+                '"EXdptWlH0SwWqSTbs5FcA":"Бегай",' +
+                '"CSbAo1Gs3UeSd28jtqlkNw":"Дана ",' +
+                '"Zyj8JnGcM0OqXFlRA0ZDig":"Жумабай",' +
+                '"yNlqZCIqUypiS4IvLRg":"Артур",' +
+                '"V64DYx9wpkiqbsJvDLsAXg":"Арсен & Аяшка",' +
+                '"CzQf71OUmCOpXCHOaFIw":"Акмат",' +
+                '"cMqEt6ewc0uOYaNXiEoMbA":"Канат & Аяшка",' +
+                '"itUcXxOrskyBtthgmoqzOQ":"Бека & Аяшка",' +
                 '"lbQxlzLwWkq8x3tIxtsbDQ":"Айданек"}');
             document.getElementById("top").addEventListener("click", (function (t) {
                 t.preventDefault(), window.scroll({top: 0, left: 0, behavior: "smooth"})
