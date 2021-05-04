@@ -84,6 +84,7 @@
                 '"CzQf71OUmCOpXCHOaFIw":"Акмат",' +
                 '"cMqEt6ewc0uOYaNXiEoMbA":"Канат & Аяшка",' +
                 '"itUcXxOrskyBtthgmoqzOQ":"Бека & Аяшка",' +
+                '"rJNVT3hR4EuW4KOvn0eH4A":"Атош",' +
                 '"lbQxlzLwWkq8x3tIxtsbDQ":"Айданек"}');
             document.getElementById("top").addEventListener("click", (function (t) {
                 t.preventDefault(), window.scroll({top: 0, left: 0, behavior: "smooth"})
