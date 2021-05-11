@@ -87,7 +87,7 @@
                 '"rJNVT3hR4EuW4KOvn0eH4A":"Атош",' +
                 '"tND0ZR4w70u1tfHL9nYKiA":"Динара эже & Стал жезде",' +
                 '"gOebiNfoHEi9zgt59cCjAQ":"Фуркат",' +
-                '"K0jfDpR6T0Wud3qWmTNvCw":"Аида & Искен",' +
+                '"K0jfDpR6T0Wud3qWmTNvCw":"Искендер & Аида",' +
                 '"NYKT485qwUevCraoGbLXdw":"Албина & Шамурат",' +
                 '"lbQxlzLwWkq8x3tIxtsbDQ":"Айданек"}');
             document.getElementById("top").addEventListener("click", (function (t) {
