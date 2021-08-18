@@ -1,0 +1,23 @@
+theme: minima
+
+# Build settings
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
+# Site settings
+#    Used to personalize the site. If you look in the HTML files,
+#    you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+#    You can create any custom variable you like, and they will be accessible
+#    in the templates via {{ site.myvariable }} for example.
+url: "https://zhoodar.github.io"
+baseurl: "" # the subpath of your site if neded, e.g. /sitecontent
+
+title: zhoodar.github.io
+description:
+
+
+github_link: https://github.com/zhoodar/zhoodar.github.io
+
+include: [".well-known", ".nojekyll"]

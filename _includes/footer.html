@@ -1,0 +1,21 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          {%- if site.github_link -%}
+          <li class="footer-links"><a href="{{ site.github_link }}">zhoodar.github.io on github</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
