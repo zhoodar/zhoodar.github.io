@@ -8,7 +8,7 @@ If you are using Linux you can follow the steps below. If you are not using Linu
 
 Clone the repository:
 ~~~~
-git clone https://github.com/wintercooled/wintercooled.github.io.git
+git clone https://github.com/zhoodar/zhoodar.github.io.git
 ~~~~
 
 Install ruby, ruby-dev and build-essential packages: 
